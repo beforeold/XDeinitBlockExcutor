@@ -6,8 +6,6 @@ you can use it to remove KVO or notification observer just where it starts.
 for example:
 
 ```Swift
-```
-
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,3 +19,4 @@ class ViewController: UIViewController {
     
     @objc func response() {}
 }
+```
